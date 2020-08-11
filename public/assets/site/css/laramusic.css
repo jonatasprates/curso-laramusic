@@ -1,0 +1,145 @@
+/*Helpers*/
+.clear{clear: both;}
+.hr{
+    background: #FC503B;
+    /* padding: 1px; */
+}
+
+/*Resets*/
+a:hover{text-decoration: none;}
+
+/*Colors*/
+
+/*Fonts Sizes*/
+
+/*BackGrounds*/
+
+
+
+/**************************************
+Layout
+**************************************/
+/*header*/
+.header{
+    padding: 20px 5px;
+    /* float: left; */
+    width: 100%;
+}
+.img-logo{
+    max-width: 250px;
+    /* float: left; */
+}
+.form-search{
+    width: 100%;
+    margin-top: 26px;
+    position: relative;
+}
+.form-search input{
+    border: 1px solid #FC503B;
+    border-radius: 2px;
+    padding: 10px 10px;
+    width: 100%;
+    color: #FC503B;
+    z-index: 0;
+    position: relative;
+}
+.form-search button.btn-search{
+background: #FC503B;
+border: 0px;
+color: #FFF;
+float: right;
+position: absolute;top: 0;right: 0;
+z-index: 1;padding: 11px 30px;}
+.login{
+    background: #FC503B;
+    padding: 10px 24px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-top: 26px;
+    float: right;
+}
+
+/*section albuns*/
+section.albuns{}
+.title{
+    font-size: 24px;
+    font-family: OpenSans;
+    color: #FB503B;
+}
+.list-albuns{}
+.img-albun{
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+.title-albun{
+    font-size: 20px;
+    margin: 4px 0px;
+    color: #FB523E;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.image-album{
+    float: left;
+    position: relative;
+}
+.hover-img-album{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    float: left;
+    top: 0;
+    text-align: center;
+    height: 100%;
+    background: #FB503B;
+    opacity: 0;
+}
+.hover-img-album:hover{
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out 0s;
+}
+.hover-img-album i{
+    color: #FFF;
+    font-size: 30px;
+    background: #B14C3F;
+    padding: 10px;
+    border-radius: 100%;
+    margin-top: 20%;
+}
+.hover-img-album i:hover{color: #FB503B}
+.albun{min-height: 174px;}
+
+
+/*section estilos*/
+.estilos{}
+.estiulos-mu{}
+a.estilo{
+    margin: 5px 6px;
+    color: #FB503B;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    float: left;
+}
+a.estilo:hover{
+    color: #CE4130;
+}
+
+
+/*Footer*/
+.footer{
+    background: #555;
+    padding: 20px;
+    margin-top: 60px;
+}
+.text-footer{
+    color: #FFF;
+    font-weight: bold;
+}
+.social a{
+    color: #FFF;
+    font-size: 20px;
+    margin: 6px;
+}
